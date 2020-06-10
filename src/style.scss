@@ -1,0 +1,475 @@
+@media (max-width: 1200px) {
+    .slide {
+        width: 320px !important;
+        height: 200px !important;
+    }
+    .slideshow {
+        margin-top: 180px !important;
+    }
+    .project {
+        width: 85% !important;
+        height: 80% !important;
+    }
+}
+@media (max-width: 850px) {
+    .page-title {
+        font-size: 1rem !important;
+    }
+    .home {
+        margin: 1.5rem !important;
+    }
+    .home-name {
+        font-size: 2rem !important;
+    }
+    .home-description {
+        font-size: .9rem !important;
+    }
+    .home-greeting {
+        font-size: 1rem !important;
+    }
+    .about-info {
+        width: 100% !important;
+        padding: 20px !important;
+    }
+    .about-description {
+        font-size: 80% !important;
+        margin-bottom: 10px !important;
+    }
+    .group-title {
+        font-size: 90% !important;
+    }
+    .group-item {
+        font-size: 80% !important;
+    }
+    .slideshow {
+        display: none;
+    }
+}
+@media (max-width: 580px) {
+    .project-info {
+        padding: 10px !important;
+        width: 95% !important;
+    }
+    .tag-list {
+        flex-wrap: wrap;
+    }
+    .language-tag {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 420px) {
+    .background {
+        width: 100% !important;
+    }
+    .flex-box-row {
+        flex-wrap: wrap;
+        width: 200px !important;
+    }
+    .social-button {
+        transform: scale(.8);
+        margin: 5px !important;
+    }
+    .header {
+        justify-content: center !important;
+    }
+    .group {
+        margin-right: 5px !important;
+        width: 80px;
+    }
+    .project {
+        width: 95% !important;
+        max-height: none !important;
+    }
+    .project-info {
+        padding: 10px !important;
+        width: 95% !important;
+    }
+    .project-desc {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .social-button {
+        transform: scale(.7);
+        margin: 2px !important;
+    }
+}
+
+/**
+ * Miscellaneous CSS code used for multiple components
+ */
+$ghost-white: #f6f9fc;
+
+%flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-box-row {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    margin: 0px !important;
+}
+
+.background {
+    min-height: 100vh;
+    background-color: #f6f9fc;
+    padding: 8px;
+}
+
+.page {
+    margin: 50px;
+}
+.page-title {
+    font-family: 'Camphor';
+    font-size: 30px;
+    margin: 0px 0px 40px 0px;
+    color: #525f7f;
+    text-align: center;
+}
+
+/**
+ *  CSS code for about page
+*/
+.about-page {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 20px 0px;
+    margin-bottom: 60px;
+    background-color: white;
+    box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+    padding: 50px;
+    animation: slideMe 1.3s;
+}
+
+.about-description {
+    font-family: 'Camphor';
+    max-width: 100%;
+    margin: 10px 0px 50px 0px;
+}
+
+/**
+ * CSS code for experience elements in Components
+ */
+.group {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.group-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.group-title {
+    font-family: 'Camphor';
+    font-size: 16px;
+    margin: 0px;
+}
+
+.group-item {
+    font-family: 'Camphor';
+    font-size: 16px;
+}
+
+/**
+ * CSS code for home page or index.js
+ */
+.home {
+    margin: 100px 100px;
+}
+
+.home-name {
+    display: table-caption;
+    font-family: 'Consolas';
+    font-size: 70px;
+    border-right: 20px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 1px;
+    animation: typewriter-text 1s steps(12) 1s 1 normal both,
+                cursor 1s steps(1) infinite normal;
+    margin: 20px 0px;
+    color: #747fe0;
+}
+@keyframes typewriter-text {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes cursor {
+    0% {
+        border-right-color: transparent;
+    }
+    50% {
+        border-right-color: #747fe0;
+    }
+    100% {
+        border-right-color: transparent;
+    }
+}
+.home-description {
+    font-family: 'Camphor';
+    font-size: 20px;
+    max-width: 700px;
+    color: #525f7f;
+    line-height: 30px;
+}
+
+.home-greeting {
+    font-family: 'Camphor';
+    font-size: 20px;
+    margin: 10px 0px;
+    color: #525f7f;
+}
+
+/**
+ * CSS code for social media icons
+ */
+.social {
+    margin-top: 20px;
+}
+
+.social-button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: white;
+    margin: 20px;
+    margin-left: 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    color: #747fe0;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.social-button i {
+    line-height: 60px;
+    font-size: 26px;
+    transition: .2s linear;
+}
+
+.social-button:hover i {
+    transform: scale(1.2);
+    color: white;
+}
+
+.social-button::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #747fe0;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.social-button:hover::before {
+    animation: square .7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes square {
+    0% {
+        left: -110%;
+        top: 90%;
+    }
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+    100% {
+        left: -10%;
+        top: -10%;
+    }
+}
+
+/**
+ * CSS code for header with links in all pages
+ */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 15px;
+}
+
+.header-link {
+    font-family: 'Camphor Medium';
+    text-decoration: none;
+    margin: 12px 25px;
+    color: black;
+}
+
+.header-link:hover {
+    color: #747fe0;
+}
+
+/**
+ * CSS code for projects page and subsequent project cards
+ */
+.project {
+    @extend %flex-row;
+    align-items: center;
+    max-width: 1100px;
+    margin: 20px 0px;
+    margin-bottom: 60px;
+    background-color: white;
+    box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+    padding: 10px;
+    animation: slideMe 1.3s;
+}
+
+@keyframes slideMe {
+    0% {
+        transform: skew(10deg) translateX(-500px);
+        opacity: 0;
+    }
+    60% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: skew(0deg);
+        opacity: 1;
+    }
+}
+
+.project-info {
+    padding: 50px;
+}
+
+.project-name {
+    font-family: 'Camphor';
+    color: #525f7f;
+    font-size: 29px;
+    margin: 0px 0px 30px 0px;
+}
+
+.project-desc {
+    font-family: 'Camphor';
+    margin: 0px 0px 30px 0px;
+    color: #525f7f;
+    line-height: 25px;
+}
+
+.project-demo {
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    border-radius: 4px;
+    transition: all .15s ease;
+    font-family: 'Camphor Bold';
+    font-size: 15px;
+    background: #747fe0;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+}
+
+.project-demo:hover {
+    background: #7795f8;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.project-github {
+    margin-right: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    border-radius: 4px;
+    transition: all .15s ease;
+    font-family: 'Camphor Bold';
+    font-size: 15px;
+    background: #fff;
+    color: #747fe0;
+    cursor: pointer;
+}
+
+.project-github:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**
+ * CSS code for tags used with projects to denote tools used
+ */
+.tag-list {
+    @extend %flex-row;
+}
+
+.language-tag {
+    font-family: 'Camphor';
+    font-size: 15px;
+    color: #525f7f;
+    padding: 8px;
+    border: 2px solid #92eac0;
+    border-radius: 5px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+/**
+ * CSS code for slideshow of screenshots of the app
+ */
+.slide {
+    height: auto;
+    width: auto !important;
+}
+
+.slideshow {
+    min-width: 200px;
+    height: 400px !important;
+    overflow: hidden;
+    margin: 50px 50px 0px 0px;
+}
+
+/**
+ * All fonts used in code
+ */
+@font-face {
+    font-family: 'Camphor';
+    src: url('./Fonts/Camphor-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Camphor Bold';
+    src: url('./Fonts/Camphor-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Camphor Medium';
+    src: url('./Fonts/Camphor-Medium.ttf');
+}

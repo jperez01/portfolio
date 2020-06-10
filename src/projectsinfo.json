@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Spotify Clone",
+        "description": ["Clone of the Spotify web app made with calls to the ",
+            "Spotify Api. In this app, you can search for artists and their songs ",
+            "follow and favorite different playlists, and play songs through the SDK ",
+            "web player (Must have Premium to use). The frontend was made with React and ",
+            "Nodejs with a basic backend in Express for OAuth."],
+        "tags": ["React", "Nodejs", "Express", "CSS"],
+        "imgs": [
+            "https://i.ibb.co/yFDMjhG/Webp-net-resizeimage-1.jpg",
+            "https://i.ibb.co/sJvw0f7/Webp-net-resizeimage.jpg",
+            "https://i.ibb.co/HtQmm8M/Webp-net-resizeimage-2.jpg"
+        ],
+        "github": "https://github.com/piolinest123/Spotify-Clone",
+        "demo": "https://juanifyapp.herokuapp.com/"
+    },
+    {
+        "name": "Forum App",
+        "description": [
+            "Forum where you can create and login to an account, make a post in it, ",
+            "comment on the posts, and change your username and password. The frontend was made ",
+            "with React and Redux for the components, and CSS was used to style the site. ",
+            "The backend was made with a Postgresql server contacted with fetch calls through ",
+            " an Express server."
+        ],
+        "tags": ["React", "Redux", "PostgreSQL", "CSS"],
+        "imgs": [
+            "https://i.ibb.co/V3LpfRp/Capture.jpg",
+            "https://i.ibb.co/ZM435V2/Forum2.jpg",
+            "https://i.ibb.co/p3vq9Br/Forum3.jpg"
+        ],
+        "github": "https://github.com/piolinest123/forum-frontend",
+        "demo": "https://forum-frontend1.herokuapp.com/"
+    }
+]
