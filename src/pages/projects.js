@@ -7,7 +7,6 @@ import Header from '../Components/header';
  * Page to show project info and links to those projects
  */
 export default function projects() {
-
     return (
         <div className="background">
             <Header/>

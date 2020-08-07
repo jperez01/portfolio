@@ -32,5 +32,23 @@
         ],
         "github": "https://github.com/piolinest123/forum-frontend",
         "demo": "https://forum-frontend1.herokuapp.com/"
+    },
+    {
+        "name": "Budgeting App",
+        "description": [
+            "Budgeting app where you can create an account and make groups and items to organize ",
+            "your expenses. You can also enter transactions that take money away ",
+            "from your accounts and then puts money into a used column to compare how much you budgeted ",
+            "versus how much you spent in total. You can also look at a calendar to show your expenses for each month. ",
+            "The data is automatically uploaded to a Postgres database connected through an Express server."
+        ],
+        "tags": ["Angular", "Express", "PostgreSQL", "CSS"],
+        "imgs": [
+            "https://i.ibb.co/MDfd8tM/rsz-budgeting1.jpg",
+            "https://i.ibb.co/X560C5Y/rsz-1budgeting2.jpg",
+            "https://i.ibb.co/BfwQB1Q/rsz-budgeting3.jpg"
+        ],
+        "github": "https://github.com/piolinest123/Budgeting-App",
+        "demo": "https://budgeting-app-project.herokuapp.com"
     }
 ]
